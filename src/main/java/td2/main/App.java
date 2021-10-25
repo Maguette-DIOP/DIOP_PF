@@ -55,11 +55,11 @@ public class App {
 
         Predicate<Double> poidsAutorise = poidsCorrecte.or(poidsTropLourd);
 
-        public List<T> filtragePredicatif(List<Predicate<T>> p, List<T> t){
 
-            return ;
-        }
+    }
+    public static <T> List<T> filtragePredicatif(List<Predicate<T>> p, List<T> t){
 
+        return;
     }
 
 
